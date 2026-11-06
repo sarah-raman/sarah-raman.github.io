@@ -2,8 +2,6 @@
 search: false
 ---
 
-$background-color: beige;
-$global-font-family: "Assistant", sans-serif;
 
 @charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -11,15 +9,6 @@ $global-font-family: "Assistant", sans-serif;
 
 /* my changes */
 
-/*font and background color */
-// body {
-//     background-color: beige;
-// }
-
-// .p1 {
-//     font-family: "Assistant", sans-serif; 
-//     font-weight: 200
-// }
 /* avatar picture size */
 .author__avatar img {
     border-radius: 12px;
