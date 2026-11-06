@@ -9,6 +9,16 @@ search: false
 
 /* my changes */
 
+/*font and background color */
+body {
+    background-color: beige;
+}
+
+.p1 {
+    font-family: "Assistant", sans-serif; 
+    font-weight: 200
+}
+/* avatar picture size */
 .author__avatar img {
     border-radius: 12px;
     /* 0 = square, 50% = circle */
