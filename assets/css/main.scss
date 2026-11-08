@@ -2,6 +2,19 @@
 search: false
 ---
 
+:root {
+    --myNavy: #183649;
+    --myRed: #330F0A;
+
+}
+
+
+$myNavy: #183649;
+$myLightBlue: #9cadbc;
+$myRed: #330F0A;
+$primary-color: $myRed;
+$masthead-link-color-hover: $myLightBlue;
+
 
 @charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -9,9 +22,166 @@ search: false
 
 /* my changes */
 
+.initial-content {
+    width: 65%;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-inline: 0;
+}
+
+.page {
+    padding-right: 5%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.page__content{
+    font-size: 0.8rem;
+}
+
+
+body{
+    background-color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+p {
+    font-family: 'Jost', calibri, sans-serif;
+    font-weight: 350;
+}
+
+h2
+h3,
+h4,
+h5,
+h6{
+     font-family: 'Assistant', serif;
+     color: var(--myNavy);
+     font-size: 1.2rem;
+     font-weight: 500;
+}
+
+h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Jost', serif;
+     color: var(--myRed);
+     font-size: 1.5rem;
+     font-weight: 500;
+     margin-top: 1rem;
+}
+
+h1 a {
+    color: inherit;
+}
+
+.page__title a {
+    color: var(--myNavy);
+}
+
+.sidebar p {
+    font-family: 'Jost', calibri, sans-serif;
+     color: var(--myNavy);
+
+}
+
+.sidebar {
+    padding-right: 0;
+    margin-right: 0;
+
+}
+
+.masthead,
+.mastead__menu
+ {
+    width: 65%;
+    margin: 0 auto;
+    height: 5vh;
+    border-bottom: none;
+}
+
+.masthead__inner-wrap {
+     border-bottom: 2px solid var(--myRed);
+     padding-bottom: 0.5rem;
+}
+
+.page__footer {
+    width: 65%;
+    margin: 0 auto;
+    height: 5vh;
+    background-color: white;
+    border-top: 2px solid var(--myRed);
+}
+
+.greedy-nav,
+.greedy-nav a {
+     font-family: 'Assistant', sans-serif;
+     font-size: 0.8rem;
+     color: var(--myNavy);
+}
+
 /* avatar picture size */
 .author__avatar img {
     border-radius: 12px;
-    /* 0 = square, 50% = circle */
     object-fit: cover;
+
+}
+
+/*custom stuff*/
+
+.landing {
+  text-align: center;
+  margin: 0 auto;  
+  width: 60%;
+}
+
+.landing a,
+landing a:hover,
+landing a:focus {
+    text-decoration: none;
+}
+
+.landing a:hover{
+    opacity: 0.6;
+}
+
+
+.landing-photo {
+    width: 30%;
+    position: relative;
+    top: 30%;
+    clip-path: circle();
+    margin: 0 auto;
+
+}
+
+.landing_nav,
+.landing_nav a {
+     font-family: 'Assistant', sans-serif;
+     font-size: 1rem;
+     color: var(--myNavy);
+     font-weight: 600;
+     margin: 0 auto;
+     text-align: center;
+
+}
+
+
+.landing_nav a + a::before {
+    content: "•";
+    margin: 0 1em;         
+    color: var(--myNavy);
+    display: inline-block;
+}
+
+.layout--splash .masthead {
+    display: none;
+}
+
+.layout--splash .page__footer {
+    display: none;
 }
