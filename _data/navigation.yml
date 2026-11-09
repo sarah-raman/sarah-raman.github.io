@@ -3,5 +3,8 @@ main:
     url: /about/
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Travel writing"
+    url: /travel-writing/
   - title: "Miscellany"
     url: /miscellany/
+    

@@ -48,8 +48,19 @@ body{
 }
 
 p {
-    font-family: 'Jost', calibri, sans-serif;
-    font-weight: 350;
+    font-family: 'Newsreader', sans-serif;
+    font-weight: 400;
+
+}
+
+a {
+    text-decoration-color: var(--myNavy);
+    color: var(--myNavy);
+}
+
+a:visited {
+    text-decoration-color: var(--myNavy);
+    color: var(--myNavy);
 }
 
 h2
@@ -57,10 +68,10 @@ h3,
 h4,
 h5,
 h6{
-     font-family: 'Assistant', serif;
+    font-family: 'Newsreader', Times, Serif;
      color: var(--myNavy);
      font-size: 1.2rem;
-     font-weight: 500;
+     font-weight: 450;
 }
 
 h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -68,10 +79,10 @@ h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-    font-family: 'Jost', serif;
+    font-family: 'Newsreader', Times, Serif;
      color: var(--myRed);
      font-size: 1.5rem;
-     font-weight: 500;
+     font-weight: 450;
      margin-top: 1rem;
 }
 
@@ -79,9 +90,6 @@ h1 a {
     color: inherit;
 }
 
-.page__title a {
-    color: var(--myNavy);
-}
 
 .sidebar p {
     font-family: 'Jost', calibri, sans-serif;
@@ -94,6 +102,8 @@ h1 a {
     margin-right: 0;
 
 }
+
+
 
 .masthead,
 .mastead__menu
@@ -119,9 +129,9 @@ h1 a {
 
 .greedy-nav,
 .greedy-nav a {
-     font-family: 'Assistant', sans-serif;
-     font-size: 0.8rem;
-     color: var(--myNavy);
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.8rem;
+    color: var(--myNavy);
 }
 
 /* avatar picture size */
@@ -137,6 +147,8 @@ h1 a {
   text-align: center;
   margin: 0 auto;  
   width: 60%;
+  border-top: 2px solid var(--myRed);
+  padding-top: 2rem;
 }
 
 .landing a,
@@ -161,8 +173,8 @@ landing a:focus {
 
 .landing_nav,
 .landing_nav a {
-     font-family: 'Assistant', sans-serif;
-     font-size: 1rem;
+    font-family: 'Assistant', sans-serif;
+     font-size: 0.95rem;
      color: var(--myNavy);
      font-weight: 600;
      margin: 0 auto;
@@ -170,6 +182,12 @@ landing a:focus {
 
 }
 
+.landing_nav {
+    border-bottom: 2px solid var(--myRed);
+    padding-bottom: 2rem;
+    width: 60%;
+
+}
 
 .landing_nav a + a::before {
     content: "•";
@@ -184,4 +202,14 @@ landing a:focus {
 
 .layout--splash .page__footer {
     display: none;
+}
+
+.sidebar-bio .sidebar{
+
+}
+
+.sidebar-right .sidebar {
+    float: right;
+    padding-left: 0;
+    margin-left: 0;
 }
