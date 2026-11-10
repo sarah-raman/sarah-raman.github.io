@@ -32,14 +32,13 @@ $masthead-link-color-hover: $myLightBlue;
 
 .page {
     padding-right: 5%;
-    padding-left: 0;
-    margin-left: 0;
+    width: 70%;
+
 }
 
 .page__content{
     font-size: 0.8rem;
 }
-
 
 body{
     background-color: white;
@@ -89,20 +88,6 @@ h1 {
 h1 a {
     color: inherit;
 }
-
-
-.sidebar p {
-    font-family: 'Jost', calibri, sans-serif;
-     color: var(--myNavy);
-
-}
-
-.sidebar {
-    padding-right: 0;
-    margin-right: 0;
-
-}
-
 
 
 .masthead,
@@ -204,7 +189,22 @@ landing a:focus {
     display: none;
 }
 
+.sidebar {
+    opacity: 1;
+}
+
+.sidebar p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.6em;
+    text-align: justify;
+
+}
 .sidebar-bio .sidebar{
+    float: left;
+    padding-left: 0;
+    margin-left: 0;
+    padding-left: 2%;
+    width: 20%;
 
 }
 
@@ -212,4 +212,41 @@ landing a:focus {
     float: right;
     padding-left: 0;
     margin-left: 0;
+    padding-left: 2%;
+    width: 25%;
+
+}
+
+.portfolio-section {
+    display:flex;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.4em;
+    color: var(--myRed);
+
+}
+
+.portfolio-title {
+    display:flex;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1em;
+    color: var(--myNavy);
+    font-weight: 500;
+
+}
+
+.portfolio-subtitle {
+    font-size: 1em;
+    color: var(--myNavy);
+     font-family: 'Assistant', sans-serif;
+    font-style: italic;
+    margin-bottom: 1em;
+    font-weight: 400;
+
+}
+
+.portfolio-supplement {
+    color: var(--myRed);
+    margin-top: 1em;
+    font-family: 'Newsreader', 'Times', serif;
+
 }
