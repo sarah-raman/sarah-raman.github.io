@@ -21,7 +21,11 @@ $masthead-link-color-hover: $myLightBlue;
 @import "minimal-mistakes"; // main partials
 
 /* my changes */
-
+.page .page__inner-wrap {
+    clear: none;
+    width: 100%;
+    padding-right: 5%;
+}
 .initial-content {
     width: 65%;
     background-color: white;
@@ -30,15 +34,17 @@ $masthead-link-color-hover: $myLightBlue;
     padding-inline: 0;
 }
 
-.page {
-    padding-right: 5%;
+.sidebar-right  .page {
+    float: none;
     width: 70%;
-
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
 }
 
 .no-sidebar .page {
     float: none;
-    width: 70%;
+    width: 100%;
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
@@ -228,14 +234,28 @@ landing a:focus {
 .portfolio-section {
     display:flex;
     font-family: 'Assistant', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: var(--myRed);
+    font-weight: 600;
+    text-decoration: underline;
+
+    text-align: center;
+    justify-content: center;
+
+    margin-bottom: 2em;
+
+}
+
+.portfolio-entry {
+    font-family: 'Newsreader', 'Times', serif;
+    font-size: 1em;
+    width: 100%;
+    flex: 0 0 70%;
+    padding: 0;
 
 }
 
 .portfolio-title {
-    display:flex;
-    font-family: 'Newsreader', 'Times', serif;
     font-size: 1em;
     color: var(--myNavy);
     font-weight: 400;
@@ -243,18 +263,39 @@ landing a:focus {
 }
 
 .portfolio-subtitle {
-    font-size: 1em;
     color: var(--myNavy);
-    font-family: 'Newsreader', 'Times', serif;
     font-style: italic;
-    margin-bottom: 1em;
     font-weight: 400;
+    margin-bottom: 1em;
 
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 100%;
+    align-items: stretch;
+    max-height: 15em;
 }
 
 .portfolio-supplement {
     color: var(--myRed);
     margin-top: 1em;
-    font-family: 'Newsreader', 'Times', serif;
+    font-style: italic;
 
+}
+
+.portfolio-thumb {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+
+    
+}
+.portfolio-thumb img {
+    box-shadow: -1px 1px 5px darkgrey;
+    display: block;
+    height: 90%;
+    width: auto;
 }
