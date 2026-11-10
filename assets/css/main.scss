@@ -252,7 +252,6 @@ landing a:focus {
     width: 100%;
     flex: 0 0 70%;
     padding: 0;
-
 }
 
 .portfolio-title {
@@ -276,7 +275,7 @@ landing a:focus {
     gap: 5%;
     width: 100%;
     align-items: stretch;
-    max-height: 15em;
+   margin-bottom: 2em;
 }
 
 .portfolio-supplement {
@@ -296,6 +295,7 @@ landing a:focus {
 .portfolio-thumb img {
     box-shadow: -1px 1px 5px darkgrey;
     display: block;
-    height: 90%;
+    max-height: 70%;
+    min-width: 54%;
     width: auto;
 }
