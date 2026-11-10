@@ -1,7 +1,7 @@
 - section: Senior Thesis in Linguistics
   entries: 
    - title: "Assessing L2 sociolinguistic competence: a repetition task approach to /l/ deletion in L2 French"
-     subtitle: "Linguistics thesis at Carleton College"
+     subtitle: "Linguistics thesis at Carleton College (March, 2025)"
      link: /assets/docs/comps_submission.pdf
      thumb: /assets/images/comps-thumb.png
      thumb_alt: Linguistics thesis thumbnail
@@ -12,12 +12,35 @@
         correlate with adherence to L1-like linguistic factor weights
         conditioning deletion, or are those two aspects of sociolinguistic
         competence acquired separately?
-     note: "This project was awarded distinction by the Carleton College Department of Linguistics"
+     note: "This project was awarded distinction by the Carleton College Department of Linguistics."
 
-   - title: "second test entry"
-     subtitle: "test subtitle"
+   - title: "Poster for NWAV 54"
+     subtitle: "October, 2026"
+     link: /assets/images/NWAV-poster.png
+     thumb: /assets/images/NWAV-poster.png
+     thumb_alt: "NWAV poster"
+     description: >
+       I presented my thesis as a project launch poster at NWAV (New Ways of Analyzing Variation) 54 in October, 2026.
+       The poster included improved visualizations of my primary data, which you can also access below. 
+
+   - title: "New thesis data visualizations"
+     subtitle: "October, 2026"
      link:
      thumb:
-     thumb_alt: "alt text"
+     thumb_alt: "New visualizations"
      description: >
-     
+       Ahead of NWAV 54, I re-visualized my primary thesis data as line charts instead of bar charts.
+       I think the new line charts make it much easier to compare individual speakers' deletion patterns.
+
+- section: Other Linguistics Projects 
+  entries:
+   - title: "Que, Pour L’amour de Dieu, Fait Quoi ? Towards an Analysis of French Coordinated Wh-Questions"
+     subtitle: "Paper for LING 315: Topics in Syntax at Carleton College (November 2024)"
+     link: /assets/docs/coordinated_wh.pdf
+     thumb: /assets/images/coordinated-wh-thumb.png
+     thumb_alt: "Thumbnail for coordinated-wh paper"
+     description: >
+       In this paper, I argue that a bi-clausal non-bulk sharing structure can account for French coordinated wh-questions with non-subject [wh].
+       I also discuss coordinated wh-questions with wh-subjects, which raise issues for both my analysis 
+       and past analyses of French sluicing. 
+    

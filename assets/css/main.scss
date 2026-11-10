@@ -243,6 +243,7 @@ landing a:focus {
     justify-content: center;
 
     margin-bottom: 2em;
+    margin-top: 2em;
 
 }
 
@@ -275,7 +276,7 @@ landing a:focus {
     gap: 5%;
     width: 100%;
     align-items: stretch;
-   margin-bottom: 2em;
+   margin-bottom: 4em;
 }
 
 .portfolio-supplement {
@@ -287,15 +288,18 @@ landing a:focus {
 
 .portfolio-thumb {
     display: flex;
-    justify-content: flex-end;
     margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
 
     
 }
 .portfolio-thumb img {
     box-shadow: -1px 1px 5px darkgrey;
     display: block;
-    max-height: 70%;
-    min-width: 54%;
+    max-width: 8.5rem;
+    max-height: 60%;
+    height: auto;
     width: auto;
 }

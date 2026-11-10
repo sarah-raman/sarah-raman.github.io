@@ -10,7 +10,7 @@ classes: no-sidebar
 over email about any of the projects linked here. </p>
 
 
-  
+{::nomarkdown}
 {% for group in site.data.portfolio %}
 <div class = "portfolio-section"> {{ group.section }} </div>
 
@@ -20,10 +20,11 @@ over email about any of the projects linked here. </p>
      <div class = "portfolio-title"> <a href="{{ item.link }}" target = "_blank"> {{ item.title }} </a> </div>
      <div class = "portfolio-subtitle"> {{ item.subtitle }} </div>
      <div class = "portfolio-description"> {{ item.description | markdownify }} </div>
-    {% if item.note %} <div class = "portfolio-supplement"> {{ item.note }} {% endif %} </div>
+    {% if item.note %} <div class = "portfolio-supplement"> {{ item.note }} </div> {% endif %} 
     </div>
-   <div class = "portfolio-thumb"> <a href="{{ item.link }}"> <img src="{{ item.thumb }}" alt= "{{ item.alt }}"> </a> </div>
-   </div>
+   <div class = "portfolio-thumb"> <a href="{{ item.link }}" target = "_blank"> <img src="{{ item.thumb }}" alt= "{{ item.alt }}"> </a> </div>
+</div>
   {% endfor %}
 
 {% endfor %}
+{:/nomarkdown}
