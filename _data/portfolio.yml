@@ -1,7 +1,7 @@
 - section: Senior Thesis in Linguistics
   entries: 
    - title: "Assessing L2 sociolinguistic competence: a repetition task approach to /l/ deletion in L2 French"
-     subtitle: "Linguistics thesis at Carleton College (March, 2025)"
+     subtitle: "Senior thesis in Linguistics (March, 2025)"
      link: /assets/docs/comps_submission.pdf
      thumb: /assets/images/comps-thumb.png
      thumb_alt: Linguistics thesis thumbnail
@@ -25,8 +25,8 @@
 
    - title: "New thesis data visualizations"
      subtitle: "October, 2026"
-     link:
-     thumb:
+     link: /assets/docs/updated_comps_viz.pdf
+     thumb: /assets/images/updated-comps-viz.png
      thumb_alt: "New visualizations"
      description: >
        Ahead of NWAV 54, I re-visualized my primary thesis data as line charts instead of bar charts.
@@ -34,7 +34,7 @@
 
 - section: Other Linguistics Projects 
   entries:
-   - title: "Que, Pour L’amour de Dieu, Fait Quoi ? Towards an Analysis of French Coordinated Wh-Questions"
+   - title: "<em>Que, Pour L’amour de Dieu, Fait Quoi ?</em> Towards an Analysis of French Coordinated Wh-Questions"
      subtitle: "Paper for LING 315: Topics in Syntax at Carleton College (November 2024)"
      link: /assets/docs/coordinated_wh.pdf
      thumb: /assets/images/coordinated-wh-thumb.png
@@ -43,4 +43,27 @@
        In this paper, I argue that a bi-clausal non-bulk sharing structure can account for French coordinated wh-questions with non-subject [wh].
        I also discuss coordinated wh-questions with wh-subjects, which raise issues for both my analysis 
        and past analyses of French sluicing. 
-    
+
+   - title: "<em>Moi j'étudie la dislocation à gauche :</em> Le cas de <em>moi je</em> dans le corpus GREMO"
+     subtitle: "Culminating project for semester abroad, completed at the <em>Linguistique, Langue, Parole</em> Lab of the University of Strasbourg (December 2023)"
+     link: /assets/docs/memoire_moi-je.pdf
+     thumb: /assets/images/memoire-moi-je-thumb.png
+     thumb_alt: "Thumbnail for moi je paper"
+     description: >
+       This paper interrogates the syntactic status of <em>moi je</em> (me I) in Spoken French, specifically 
+       investigating whether <em>moi je</em> is in the process of becoming a single morpheme. To this end, I 
+       examine the prosody of <em>moi je</em> disfluencies in the University of Strasbourg's GREMO
+       corpus. (Written in French)
+     note: "This project was a finalist for the Forum on Education Abroad's national Award for Academic Achievement Abroad."
+
+- section: Senior Thesis in French
+  entries:
+   - title: "Puisque nous t’aimons trop pour te retenir : nostalgie collective dans des spectacles d’hommage à Jean-Jacques Goldman"
+     subtitle: "Senior thesis in French and Francophone Studies (March 2025)"
+     link: /assets/docs/memoire_goldman.pdf
+     thumb: /assets/images/memoire-goldman.png
+     thumb_alt: "Thumbnail for Goldman thesis"
+     description: > 
+       My senior thesis in French and Francophone Studies analyzed tribute performances to French singer-songwriter
+       Jean-Jacques Goldman through a muscial and socio-cultural lens. (Written in French)
+     note: "This project was awarded distinction by the Carleton College Department of French and Francophone Studies"
