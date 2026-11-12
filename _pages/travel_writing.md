@@ -4,7 +4,6 @@ permalink: /travel-writing/
 author_profile: false
 classes: no-sidebar
 ---
-<p>Here is some of my travel writing.</p>
 
 
 <div class="travel-grid-container"> 
