@@ -57,27 +57,16 @@ plugins:
 
 author:
   name   : "Sarah Raman"
-  avatar : "/assets/images/sarah-headshot.jpg"
-  bio    : "Linguist."
+  avatar : "/assets/images/sarah-headshot.png"
+  location: "Nashville, TN"
   links:
-    - label: Nashville, TN
-      icon: "fab fa-fw fa-map-pin"
-    - label: Linkedin
-      icon: "fab fa-fw fa-linkedin-square"
+    - label: "CV"
+      icon: "fas fa-fw fa-file"
+      url: /assets/docs/Raman_CV.pdf
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sarah-raman-SR2002/"
 
-
-# footer:
-#   links:
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/"
 
 defaults:
   # _posts
