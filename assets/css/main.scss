@@ -134,10 +134,10 @@ h1 a {
     color: var(--myNavy);
 }
 
-/* avatar picture size */
 .author__avatar img {
     border-radius: 12px;
     object-fit: cover;
+    width: 80%;
 
 }
 
@@ -221,6 +221,33 @@ landing a:focus {
     padding-left: 2%;
     width: 20%;
 
+}
+
+.sidebar-bio .page{
+    width: 70%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 5%;
+    float: left;
+}
+.author__content{
+     margin-bottom: 1em;
+     align-self: center;
+     justify-self: center;
+}
+.author__content p {
+    font-size: 0.8em;
+    max-width: 25%;
+}
+
+.author__avatar img{
+    width: 80%;
+    max-height: auto;
+    max-width: 80%;
+}
+
+.author__urls-wrapper {
+    font-size: 0.8em;
 }
 
 .sidebar-right .sidebar {
@@ -311,7 +338,7 @@ landing a:focus {
     flex-wrap: wrap;
     gap: 5%;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .travel-post {
@@ -323,6 +350,10 @@ landing a:focus {
     align-items: center;
     margin-top: 3%;
 
+}
+
+.travel-title {
+       margin-top: 1em;
 }
 
 .travel-title a {
@@ -339,9 +370,7 @@ landing a:focus {
 
 .travel-subtitle {
     font-family: 'Newsreader', 'Times', serif;
-    align-self: center;
-    justify-content: center;
-    justify-self: center;
+    text-align: center;
 }
 
 .travel-post-img{
@@ -351,7 +380,7 @@ landing a:focus {
 
 .video-wrap {
     position: relative;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 4 / 3;
 }
 
 .video-wrap iframe {
@@ -380,6 +409,18 @@ hr {
     justify-self: center;
 }
 
-hr::after{
-      content: "#";
+.page__footer-follow{
+    display: none;
+}
+
+.page__related{
+    float:inline-start;
+}
+
+.grid__item {
+    margin-right: 5%;
+}
+
+.pagination {
+    display: none;
 }
