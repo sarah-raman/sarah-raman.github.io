@@ -17,16 +17,18 @@ The villa’s white tile floors greeted me first, jarringly cool and sterile aft
 And they all retreated from sight. I unpacked my things slowly, drawing out the minutes until I’d be faced with the excruciating task of having nothing to do.
 After folding my last t-shirt onto a shelf in my closet, I took a look around the room. It shared the same, impersonal tile as the rest of the house, but an orange batik bedspread and draped mosquito net reminded me how far I was from home. I pushed the mosquito net aside to sit down on my bed and considered what to do with myself. I wanted to find one of my host family members and start getting to know them, but they had all disappeared behind closed doors. The communal living room, I remarked to myself, was perhaps not a Senegalese concept, and even if it were, I wouldn’t know which door to open to get there. My thoughts turned to my real mom at home. I might have called her, but I had been too shy to ask for the wifi password. So, I pulled out my journal. Recently, I took it off my shelf and rediscovered what I wrote. 
 
->6/9/19 (evening)
+><strong>6/9/19 (evening)</strong>
 >
 >It’s just so awkward. I don’t know if I’m supposed to just hide in my room all day or try to engage with family members, but those family members don’t seem to want to talk to me, and I have no idea which spaces are public spaces and which are off limits and if I can just walk around the house or what most of the rooms even are. At least the bathroom door locks.
 
 And then: 
 
->I also don’t know if we’re having dinner or when or if I’m ever even going to eat. </em> 
+>I also don’t know if we’re having dinner or when or if I’m ever even going to eat. 
 
 The sixteen-year-old angst was clearly running high. But it was never really about the dinner. I knew I wouldn’t starve. It was about sitting alone, in a silent house, expectations for life with my host family crumbling around me. Senegal was supposed to be loud and vibrant. The land of teranga: a Wolof word for warmth and hospitality. I had thought, perhaps, by being in Senegal, that I could embody those things too. But flying over an ocean had changed nothing about me. I wanted desperately to step outside of my room, to make my presence felt, to start building a life-long connection with this family. I wanted desperately for them to want me. I was tethered by anxiety to my bed. 
-#
+
+***
+
 It was never really about the dinner. But then again, it was a little bit about the dinner. Had they forgotten that I existed? Did I need to go scavenge for myself? Was there even a kitchen in this house? 
 
 Finally, a knock came at my door. My host mother beckoned me up a flight of stairs and onto a flat rooftop. Against palm trees, crumbling cement, and laundry flapping in the wind stood the house’s contribution to the skyline: a cement-walled, galley-like kitchen protruding from the top of the house; a caged blue parrot guarding the door. By the parrot stood a rusty water spigot, some overturned buckets, and a heap of pots and pans. Inside the structure itself, I spotted a gas range, a small table, and a gleaming, modern refrigerator taking up a quarter of the room. I hoped desperately for a cool drink, but the fridge didn’t seem to be plugged in. Instead, my host mother pointed me towards the table and sat me down in front of a heaping metal plate. A few words were lost in translation. I don’t remember what the dinner was. And then she left. 
@@ -36,7 +38,9 @@ Alone again. I sat, paralyzed, for a few moments, trying to calculate my next mo
 Fifteen minutes later, I headed back downstairs, waves of exhaustion washing over me. Although the dinner had been lonely, I was full of gratitude for the family’s thoughtfulness in serving it to me early. I rounded the corner towards my room, bed in sight, and snuck a glance into a room with a door newly ajar. My stomach dropped. What morally reprehensible thing had I done?
 
 Inside the room, my entire host family was sitting on the floor. They were talking. They were laughing. They were eating the exact same food that had just sunk to the bottom of my stomach. No amount of face-scrunched concentration brings back what the dinner was. But that line is burned into my brain from all the times I’ve recounted this story. They were all sitting there eating the exact same dinner that they had just served me. I didn’t know what to do. Not even writing could cushion the shock; there is no journal entry from that night. I must have just gone to bed. 
-#
+
+***
+
 The next day brought my first recounting of the tale. At the study abroad center, our program directors—three young Senegalese men, endlessly knowledgeable about life in Dakar—asked us how the first night with our families had gone. I quickly explained what had happened, sure they could help me make sense of my dinner for one. 
 
 “They were all sitting there eating the exact same dinner that they had just served me.”
@@ -50,20 +54,24 @@ I nodded, feigning relief, but my brain screamed back at him silently:
 “You think it’s part of Senegalese culture? You’re Senegalese! How could you not know?” 
 
 I loved my time in Senegal. I really did. But I think there may be some parts of the culture that just aren’t meant to be understood. 
-#
+
+***
+
 I have hazy memories of my dinners from the rest of the trip. I remember welling up my courage as my host mom sat me down one evening. Struggling against the communication barrier, I fought to explain that, no, believe it or not, I really did want to eat with the rest of the family. S’il vous plaît. I don’t remember her response. But it must have worked, because I have other shadowy recollections of being on the rooftop with my host brother, Papis, and a girl named Fatou whose role in the family I never grasped. Servant, maybe? Nanny? Cousin? She was young enough to be in school but never seemed to leave the house. 
 
 Fatou spoke neither English nor French. I never learned what languages Papis spoke—he continued not to talk. He just towered over me, always looking past my shoulder. I don’t know how their company really could have improved my dinnertime experience.
 
 Reading my journal suggests otherwise. 
->6/10/19 (night)
+><strong>6/10/19 (night)</strong>
+>
 >Made some progress today! They once again suggested that I go upstairs and eat alone, but I insisted that I wanted to eat with them, so instead I ate upstairs with Papis and Fatou. We were quiet for a while… but eventually I got some rice and vegetables and started a conversation with “comment dit-on riz en Wolof?,” and it progressed from there… They didn’t really respond (mostly talking to themselves in Wolof), but it was enough to declare it a success. 
 
 And then, on a later page, a story of me and Fatou walking down a street. She addressed me as sama xarit; two of the twenty-some Wolof words I understood. My friend. Another, later, story of me feeling sick. Apparently my host mom brought me rice porridge and papaya in bed. I’m allergic to papaya, but the journal reports that I was still touched. The memory is so foreign, if I hadn’t recognized my own handwriting, I wouldn’t have believed it happened to me. 
 
 And then, from the last day of my stay:
 
->6/24/19 (morning)
+><strong>6/24/19 (morning) </strong>
+>
 >Breakfast was perfectly laid out for me this morning and it made me really love living with a host family. I think I’ll miss them.
 
 Who would’ve thought? Not even I could have predicted that ending—and I lived through it. 
