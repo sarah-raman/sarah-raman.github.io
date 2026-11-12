@@ -303,3 +303,25 @@ landing a:focus {
     height: auto;
     width: auto;
 }
+
+.travel-grid-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.travel-post {
+    width: 25%;
+    justify-content: center;
+
+}
+
+.travel-title {
+    font-family: 'Newsreader', 'Times', serif;
+    color: var(--myRed);
+    font-size: 1em;
+}
+
+.travel-post img{
+    width: 20%;
+}
