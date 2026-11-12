@@ -1,0 +1,23 @@
+- title: My Friend the Prince
+  link: 
+  thumb: /assets/images/oxford.jpg
+  thumb_alt: Oxford thumbnail
+  subtitle: Oxford, England
+
+- title: Dinner for One
+  link:
+  thumb: /assets/images/dakar.jpg
+  thumb_alt: Dakar thumbnail
+  subtitle: Dakar, Senegal
+
+- title: Agnès
+  link: 
+  thumb: /assets/images/biocoop.jpg
+  thumb_alt: Paris thumbnail
+  subtitle: Paris, France
+
+- title: Il était une fois un jeune vélo
+  video: https://www.youtube.com/embed/odK-rdD77h8?si=HkfJscNssvga-tBt'
+  link: https://www.youtube.com/watch?v=odK-rdD77h8&list=PLAxYiPebQQC9NhR-R9JdDtz9MWTQnsHUe
+  subtitle: Strasbourg, France (with English subtitles)
+

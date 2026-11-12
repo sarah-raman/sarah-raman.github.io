@@ -307,21 +307,55 @@ landing a:focus {
 .travel-grid-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 5%;
+    justify-content: center;
+    align-items: center;
 }
 
 .travel-post {
-    width: 25%;
+    width: 30%;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    align-items: center;
+    margin-top: 3%;
 
 }
 
-.travel-title {
+.travel-title a {
     font-family: 'Newsreader', 'Times', serif;
     color: var(--myRed);
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration-color: var(--myRed);
 }
 
-.travel-post img{
-    width: 20%;
+.travel-title:hover{
+    opacity: 0.8;
+}
+
+.travel-subtitle {
+    font-family: 'Newsreader', 'Times', serif;
+    align-self: center;
+    justify-content: center;
+}
+
+.travel-post-img{
+    width: 90%;
+    height: auto;
+}
+
+.video-wrap {
+    position: relative;
+    aspect-ratio: 3 / 2;
+}
+
+.video-wrap iframe {
+    position: absolute;
+    inset: 0;
+    width: 90%;
+    height: 90%;
+    border: 0;
 }
