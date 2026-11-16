@@ -12,4 +12,4 @@ I currently work as the Project Coordinator for the <a href="https://www.thecomm
 
 When not doing linguistics, I love teaching French. Since 2019, I've spent my summers teaching at <em>Lac du Bois</em>, the French immersion sleepaway camp at Concordia Language Villages, where I'm also on the camp's leadership team. That community is a hugely important part of my life. You can learn more about the Villages' work <a href="https://www.concordialanguagevillages.org/">here</a>.   
 
-You can reach me at <span class="blockSpam" aria-hidden="true">"!</span> sarah.l.<!---blockblockblock -->raman@<!-- blockblockblock -->gmail.com.
+You can reach me at <span class="blockSpam" aria-hidden="true">NO SPAM!</span> sarah.l.<!---blockblockblock -->raman@<!-- blockblockblock -->gmail.com.
