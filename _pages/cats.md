@@ -31,7 +31,7 @@ In Nashville, I live with Kenny and Dolly and their foster brother Earl, who is 
     </div>
     <div class="cat-bio"> 
         <div class ="cat-bio-img"> <img src="/assets/images/cat-bios/earl.jpg"> </div>
-        <p> Earl likes to get comfy wherever he is. </p>
+        <p> Earl likes to get comfy anywhere. </p>
     </div>
     </div>
 </div>

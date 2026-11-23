@@ -15,6 +15,11 @@ $myRed: #330F0A;
 $primary-color: $myRed;
 $masthead-link-color-hover: $myLightBlue;
 
+$small: 700px;
+$medium: 700px;
+$large: 700px;
+$x-large: 1200px;
+
 
 @charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -67,6 +72,7 @@ p {
 
 }
 
+
 a {
     text-decoration-color: var(--myNavy);
     color: var(--myNavy);
@@ -106,7 +112,6 @@ h1 a {
 
 
 .masthead,
-.mastead__menu
  {
     width: 65%;
     margin: 0 auto;
@@ -177,26 +182,35 @@ landing a:focus {
 .landing_nav,
 .landing_nav a {
     font-family: 'Assistant', sans-serif;
-     font-size: 0.95rem;
+     font-size: 1em;
      color: var(--myNavy);
      font-weight: 600;
-     margin: 0 auto;
-     text-align: center;
-
 }
 
 .landing_nav {
     border-bottom: 2px solid var(--myRed);
     padding-bottom: 2rem;
-    width: 60%;
-
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     max-width: 65%;
+    justify-content: center;
 }
 
-.landing_nav a + a::before {
+.landing_nav a{
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.landing_nav a+a::before {
     content: "•";
-    margin: 0 1em;         
+    margin: 0 1em;
     color: var(--myNavy);
     display: inline-block;
+    white-space: nowrap;
 }
 
 .layout--splash .masthead {
@@ -235,11 +249,14 @@ landing a:focus {
     margin-left: 5%;
     float: left;
 }
+
 .author__content{
      margin-bottom: 1em;
      align-self: center;
      justify-self: center;
+
 }
+
 .author__content p {
     font-size: 0.8em;
     max-width: 25%;
@@ -253,6 +270,8 @@ landing a:focus {
 
 .author__urls-wrapper {
     font-size: 0.8em;
+    overflow-wrap: anywhere;
+    overflow-x: visible;
 }
 
 .sidebar-right .sidebar {
@@ -261,8 +280,17 @@ landing a:focus {
     margin-left: 0;
     padding-left: 2%;
     width: 25%;
+    display: flex;
+    flex-direction: column;
 
 }
+
+// .sidebar.sticky {
+//     overflow: visible;
+//     margin-right: 2%;
+//     display: flex;
+//     flex-direction: row;
+// }
 
 .portfolio-section {
     display:flex;
@@ -567,4 +595,48 @@ span.blockSpam {
     background: #8d96c6;
     color: floralwhite;
     transform: translate(0, 0.25em);
+}
+
+@media (max-width: 700px) {
+
+h1{justify-self: center;}
+p{width: 100%; text-align: center;}
+.page__title{justify-self: center;}
+
+
+ //Landing page
+.initial-content {width: 90%;}
+.masthead, .masthead__menu, .page__footer {width: 90%;}
+.landing-photo {width: 40%;}
+.landing_nav {flex-direction: column; align-items: center; text-decoration: underline}
+.landing_nav a+a::before {display:none;}
+
+//about sidebar (work in progres)
+.sidebar-bio .sidebar {float: none; width: 100%;}
+.sidebar-bio .author__avatar img {min-width: 5em;}
+.author__content{padding-left: 5%;}
+// .sidebar-bio .author__urls-wrapper .author__urls{
+//     display: flex; flex-direction: column; gap: 1%;
+//     background: transparent; border:0; box-shadow: none;
+// .author__urls::before{display: none;}
+
+//travel writing: change row to columns
+.travel-grid-container{flex-direction: column; align-items: center; justify-content: center; width: 100%;}
+.travel-post{width: 80%; margin-bottom: 5%;}
+.travel-title, .trave-subtitle{align-items: center; text-align: center;}
+
+//miscellany: put sidebar below 
+.sidebar-right .sidebar{float: none; position: absolute;  bottom: 10%; flex-direction: row; width: 80%; gap: 5%;}
+.sidebar-right .page__inner-wrap {width: 130%;}
+.sidebar-right img{width: 55%;}
+.sidebar-right .sidebar p{width:40%; font-size: 0.5rem;}
+
+//portfolio: put thumbs below entries and center
+.portfolio-container{flex-direction: column; margin-top: 5%; text-align: center; text-justify: center;}
+.portfolio-thumb{margin-top: 5%;}
+
+
+//cats: put random photo below bios
+.cat-page-wrapper{flex-direction: column; height: auto;}
+.random-cat-container{max-height: 30%;}
 }
